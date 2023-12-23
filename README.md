@@ -1,3 +1,6 @@
+Absolutely, here's an updated README with the added details:
+
+```markdown
 # Washing Machine CPU Control System
 
 This project focuses on designing and implementing a minimal CPU architecture for controlling a washing machine. The system is capable of handling various tasks, including water level detection, temperature control, motor speed regulation, timer management, and more.
@@ -31,15 +34,20 @@ The microcontroller-based CPU architecture includes components such as the micro
 
 ### Microcontroller Unit:
 - Core processing unit with features and capabilities.
+
 ### Memory Allocation:
 - Program memory for storing control algorithms.
 - Data memory for variables and settings.
+
 ### I/O Ports:
 - Input and output ports for interfacing with external components.
+
 ### Control Algorithms:
 - Representing the flow of algorithms for water level detection, temperature control, motor speed, timer, etc.
+
 ### User Interface:
 - Display screen and input interface for user settings.
+
 ### Multitasking Capabilities:
 - Handling multiple tasks simultaneously.
 
@@ -67,21 +75,35 @@ This project enhances our understanding of minimal CPU architectures for washing
 
 ## How to Use
 
-Provide instructions on how to run or test the code.
+### Running the Washing Machine Control System
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/washing-machine-cpu-control.git
+   cd washing-machine-cpu-control
+   ```
+
+2. **Compile and Run the Code:**
+   ```bash
+   javac WashingMachineController1.java
+   java WashingMachineController1
+   ```
+
+   Ensure you have Java installed on your machine.
 
 ## Files and Directory Structure
 
-- Describe the organization of code files and important directories.
+The directory structure of the project is organized as follows:
 
-## Dependencies
+- **src/main/java/:**
+  - **WashingMachineController1.java:** Main class orchestrating the washing cycle.
+  - **WashingMachine.java:** Class representing the washing machine.
 
-Specify any dependencies or tools required to run the project.
+- **test/java/:**
+  - **WashingMachineController1Test.java:** Test cases for the washing machine controller.
 
-## Contributing
+- **docs/:**
+  - **architecture_diagram.png:** Diagram illustrating the CPU architecture.
+  - **user_manual.md:** User manual for operating the washing machine control system.
 
-Guidelines for contributing to the project.
-
-
-## Acknowledgments
-
-- Mention any external libraries, frameworks, or resources used in the project.
+- **README.md:** Project overview
